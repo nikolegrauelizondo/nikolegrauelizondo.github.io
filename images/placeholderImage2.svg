@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 750" style="enable-background:new 0 0 500 750;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F5F5F5;}
-	.st1{fill:#F5F5F5;stroke:#BEBEBE;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#BEBEBE;stroke-miterlimit:10;}
 	.st2{font-family:'Poppins-Medium';}
 	.st3{font-size:35px;}
+	.st4{display:none;}
+	.st5{display:inline;fill:#FFFFFF;}
+	.st6{display:inline;}
+	.st7{clip-path:url(#SVGID_00000153674045186576495350000004307863575535149479_);}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:#030303;}
 </style>
-<g>
-	<rect class="st0" width="500" height="750"/>
+<g id="Layer_1">
+	<g>
+		<rect class="st0" width="500" height="750"/>
+	</g>
+	<line class="st1" x1="0" y1="0" x2="500" y2="750"/>
+	<line class="st1" x1="499.5" y1="-0.5" x2="-0.5" y2="749.5"/>
+	<text transform="matrix(1 0 0 1 209.208 379.6636)" class="st2 st3">img2</text>
 </g>
-<line class="st1" x1="0" y1="0" x2="500" y2="750"/>
-<line class="st1" x1="499.5" y1="-0.5" x2="-0.5" y2="749.5"/>
-<text transform="matrix(1 0 0 1 209.208 379.6636)" class="st2 st3">img2</text>
+<g id="Layer_2" class="st4">
+	<rect class="st5" width="500" height="750"/>
+	<g class="st6">
+		<defs>
+			<rect id="SVGID_1_" width="500" height="750"/>
+		</defs>
+		<clipPath id="SVGID_00000121983703414668730620000015289874079887401625_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000121983703414668730620000015289874079887401625_);">
+			
+				<image style="overflow:visible;opacity:0.6;" width="500" height="1203" xlink:href="438FE849C9BF7E23.png"  transform="matrix(1 0 0 1 -3 6)">
+			</image>
+			<g>
+				<g>
+					<g id="ebzfSN.tif_00000138542738572321480230000012750609132692831128_">
+						
+							<image style="overflow:visible;" width="2848" height="1234" id="Layer_0_00000176741248182648736190000004972151248998107008_" xlink:href="438FE849C9BF7E2F.png"  transform="matrix(0.1545 0 0 0.1545 30 30)">
+						</image>
+					</g>
+					<g id="vMaRO8.tif_00000100343745850935510410000011220236584085098153_">
+						
+							<image style="overflow:visible;" width="2848" height="1074" id="Layer_0_00000107570733716649551810000011779493982219573149_" xlink:href="438FE849C9BF7E21.png"  transform="matrix(0.1545 0 0 0.1545 30 220.6461)">
+						</image>
+					</g>
+					<g id="rj6r6g.tif_00000060739458700776441780000000445768320897087890_">
+						
+							<image style="overflow:visible;" width="2848" height="798" id="Layer_0_00000152943913809686796960000013195560682246042762_" xlink:href="438FE849C9BF7E22.png"  transform="matrix(0.1545 0 0 0.1545 30 319.5225)">
+						</image>
+					</g>
+					<g id="zamLJ9.tif_00000098185022947718003730000004141830130402293684_">
+						
+							<image style="overflow:visible;" width="2848" height="174" id="Layer_0_00000060708770428310187970000004559116505368250015_" xlink:href="438FE849C9BF7E20.png"  transform="matrix(0.1545 0 0 0.1545 30 442.809)">
+						</image>
+					</g>
+					<rect x="442.2" y="451.5" class="st8" width="23.5" height="18.2"/>
+					<g id="sLDfTe.tif_00000139255420981502823520000002800978869780094089_">
+						
+							<image style="overflow:visible;" width="2848" height="1250" id="Layer_0_00000096026942112192494080000003630668036129602962_" xlink:href="438FE849C9BF7E3C.png"  transform="matrix(0.1545 0 0 0.1545 30 469.691)">
+						</image>
+					</g>
+					<g id="vnrVYB.tif_00000034773137541870113570000010902371162321994884_">
+						
+							<image style="overflow:visible;" width="2848" height="666" id="Layer_0_00000052099937905289223190000015560742866872366013_" xlink:href="438FE849C9BF7E3D.png"  transform="matrix(0.1545 0 0 0.1545 30 662.809)">
+						</image>
+					</g>
+					<g id="plOYXu.tif_00000031909732827642718020000001999976377390048428_">
+						
+							<image style="overflow:visible;" width="2848" height="986" id="Layer_0_00000145029583029961770860000012216287342032298422_" xlink:href="438FE849C9BF7E3E.png"  transform="matrix(0.1545 0 0 0.1545 30 765.7023)">
+						</image>
+					</g>
+					<g id="mshpk3.tif_00000131326992295292511040000008839611840721635508_">
+						
+							<image style="overflow:visible;" width="2848" height="792" id="Layer_0_00000073700784227121581600000006993983199564747958_" xlink:href="438FE849C9BF7E3F.png"  transform="matrix(0.1545 0 0 0.1545 30 918.0337)">
+						</image>
+					</g>
+					<g id="_x30_oXiSg.tif_00000175315411928416971140000004046319002110569882_">
+						
+							<image style="overflow:visible;" width="2848" height="858" id="Layer_0_00000054243976202235030310000000654354313100038787_" xlink:href="C3CC92AA28AD3BD8.png"  transform="matrix(0.1545 0 0 0.1545 30 1040.3933)">
+						</image>
+					</g>
+					<rect x="431.1" y="1152.6" class="st0" width="36.8" height="13.3"/>
+					<rect x="431.7" y="1135.3" class="st8" width="36.8" height="17.3"/>
+					<polygon class="st9" points="447.1,628.5 447.1,632.2 444,632.2 444,638.1 441,638.1 441,654.5 444,654.5 444,659.4 
+						460.4,659.4 460.4,654.5 467.2,654.5 467.2,644.9 467.2,638.1 467.2,628.5 					"/>
+					<rect x="451.5" y="627.3" class="st9" width="14.8" height="16.4"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
