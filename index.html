@@ -11,14 +11,550 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/photographicLightbox.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/928712b7e7.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700;9..40,900&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
     <title>Nikole Grau Elizondo | Web Portfolio</title>
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg"> <!-- class="navbar navbar-expand-lg sticky-top" -->
+        <div class="container navbarContainer">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.svg" alt="" class="img-fluid navbarLogo">
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse navbarPosition">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navbarButton" aria-current="page"
+                            href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navbarButton" aria-current="page"
+                            href="#works">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navbarButton" aria-current="page" href="#aboutMe">Sobre
+                            Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="downloadButton1" data-scroll class="nav-link optmenu navbarButton" aria-current="page"
+                            href="">Currículum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="" class="header headerBackgroundImg container-fluid d-flex justify-content-center align-items-center">
+        <div class="headerContainer">
+            <!-- <div class="" style="text-align: center;">
+                <img src="images/icon.png" alt="" class="headerImage">
+            </div> -->
+            <div class="" style="text-align: center;">
+                <h1 class="headerTitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem repudiandae qui quo
+                    eveniet!
+                </h1>
+            </div>
+            <div class="" style="text-align: center;">
+                <p class="headerText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis unde, repellendus accusantium
+                    aliquam tempora recusandae asperiores illum magnam, optio qui sed perferendis quisquam esse quae
+                    velit saepe quo enim voluptates?
+                </p>
+            </div>
+            <div class="" style="text-align: center;">
+                <button id="" class="buttonContact">Lorem ipsum</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="servicesContainer">
+            <div class="row container-fluid d-flex justify-content-center align-items-center">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="servicesTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                    <div class="">
+                        <hr class="servicesHr" data-aos="fade-right" data-aos-duration="1000">
+                    </div>
+                </div>
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="servicesText">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ducimus minus ipsam
+                        temporibus, dolorum soluta numquam deleniti obcaecati, hic sunt veritatis dolore ea in quidem
+                        quas, ex magni dignissimos? Explicabo?
+                    </p>
+                </div>
+            </div>
+            <div class="hrSimple">
+                <hr>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tab tabStyle">
+                <!-- Tab (1/2) -->
+                <button class="tabLink" onclick="options(event, 'lorem1')">
+                    <h5 class="tabH5">Lorem Ipsum</h5>
+                </button>
+                <!-- Tab (2/2) -->
+                <button class="tabLink" onclick="options(event, 'lorem2')">
+                    <h5 class="tabH5">Lorem Ipsum</h5>
+                </button>
+            </div>
+
+            <!-- Tab's Content -->
+            <div class="tabContainer">
+                <!-- Tab (1/2) -->
+                <div id="lorem1" class="tabContent" style="display: block;">
+                    <div class="">
+                        <p class="tabText">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veniam libero enim
+                            accusantium, alias provident omnis eum quas autem quisquam error amet nulla ipsum soluta
+                            deleniti impedit. Nulla, inventore enim! Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Pariatur doloribus, modi nam ullam distinctio necessitatibus? Sapiente delectus
+                            laboriosam vitae laudantium vel magni ad placeat, sequi animi praesentium eaque soluta
+                            harum.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tab (2/2) -->
+                <div id="lorem2" class="tabContent" style="display: none;">
+                    <div class="">
+                        <p class="tabText">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero iste architecto placeat, quas
+                            dolores nihil sit in possimus deleniti dicta vel id. Reprehenderit fuga provident assumenda
+                            necessitatibus illum rerum pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Impedit iste pariatur beatae nulla nostrum consequatur dignissimos, fuga quis sit
+                            tempora aut architecto, possimus minus aperiam nihil amet placeat? Sapiente, aliquid.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="works">
+        <div class="worksContainer">
+            <div class="row container-fluid d-flex justify-content-center align-items-center">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="worksTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                    <div class="">
+                        <hr class="worksHr" data-aos="fade-right" data-aos-duration="1000">
+                    </div>
+                </div>
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="worksText">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ducimus minus ipsam
+                        temporibus, dolorum soluta numquam deleniti obcaecati, hic sunt veritatis dolore ea in quidem
+                        quas, ex magni dignissimos? Explicabo?
+                    </p>
+                </div>
+            </div>
+            <div class="hrSimpleWhite">
+                <hr>
+            </div>
+
+            <!-- Work Gallery -->
+            <!-- Row (1/2) -->
+            <div class="row workGalleryContainer">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="workBox">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 workBoxContent">
+                                <h4 class="worksGalleryTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </h4>
+                                <p class="worksGalleryText">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="">
+                                    <button id="" class="worksGalleryButton">Lorem ipsum</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <!-- Modal Activation -->
+                                <img src="images/placeholderImage1.svg" id="myImg01" alt=""
+                                    class="workGalleryImage img-fluid">
+                                <!-- Modal ID -->
+                                <div class="modal" id="modal01">
+                                    <!-- Modal Close Button -->
+                                    <div class="close01">&times;</div>
+                                    <!-- Modal Content -->
+                                    <div class="modalContent">
+                                        <img src="images/placeholderImage1.svg" id="img01" alt=""
+                                            class="workGalleryImage img-fluid">
+                                    </div>
+                                    <!-- Modal Title -->
+                                    <div id="title01"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="workBox">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 workBoxContent">
+                                <h4 class="worksGalleryTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </h4>
+                                <p class="worksGalleryText">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="">
+                                    <button id="" class="worksGalleryButton">Lorem ipsum</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <!-- Modal Activation -->
+                                <img src="images/placeholderImage2.svg" id="myImg02" alt=""
+                                    class="workGalleryImage img-fluid">
+                                <!-- Modal ID -->
+                                <div class="modal" id="modal02">
+                                    <!-- Modal Close Button -->
+                                    <div class="close02">&times;</div>
+                                    <!-- Modal Content -->
+                                    <div class="modalContent">
+                                        <img src="images/placeholderImage2.svg" id="img02" alt=""
+                                            class="workGalleryImage img-fluid">
+                                    </div>
+                                    <!-- Modal Title -->
+                                    <div id="title02"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row (2/2) -->
+            <div class="row workGalleryContainer2">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="workBox">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 workBoxContent">
+                                <h4 class="worksGalleryTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </h4>
+                                <p class="worksGalleryText">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="">
+                                    <button id="" class="worksGalleryButton">Lorem ipsum</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <!-- Modal Activation -->
+                                <img src="images/placeholderImage3.svg" id="myImg03" alt=""
+                                    class="workGalleryImage img-fluid">
+                                <!-- Modal ID -->
+                                <div class="modal" id="modal03">
+                                    <!-- Modal Close Button -->
+                                    <div class="close03">&times;</div>
+                                    <!-- Modal Content -->
+                                    <div class="modalContent">
+                                        <img src="images/placeholderImage3.svg" id="img03" alt=""
+                                            class="workGalleryImage img-fluid">
+                                    </div>
+                                    <!-- Modal Title -->
+                                    <div id="title03"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="workBox">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 workBoxContent">
+                                <h4 class="worksGalleryTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </h4>
+                                <p class="worksGalleryText">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="">
+                                    <button id="" class="worksGalleryButton">Lorem ipsum</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <!-- Modal Activation -->
+                                <img src="images/placeholderImage4.svg" id="myImg04" alt=""
+                                    class="workGalleryImage img-fluid">
+                                <!-- Modal ID -->
+                                <div class="modal" id="modal04">
+                                    <!-- Modal Close Button -->
+                                    <div class="close04">&times;</div>
+                                    <!-- Modal Content -->
+                                    <div class="modalContent">
+                                        <img src="images/placeholderImage4.svg" id="img04" alt=""
+                                            class="workGalleryImage img-fluid">
+                                    </div>
+                                    <!-- Modal Title -->
+                                    <div id="title04"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="aboutMe" class="aboutMe">
+        <div class="aboutMeContainer">
+            <div class="aboutMeBox">
+                <div class="row">
+                    <!-- Column (1/2) -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <img src="images/placeholderImageAvatar.svg" alt="" class="aboutMeImage img-fluid">
+                    </div>
+
+                    <!-- Column (2/2) -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h2 class="aboutMeTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                        <p class="aboutMeText">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veniam libero enim
+                            accusantium, alias provident omnis eum quas autem quisquam error amet nulla ipsum soluta
+                            deleniti impedit.
+                        </p>
+                        <div class="aboutMeLinks">
+                            <a href="https://github.com/nikolegrauelizondo" target="_blank"><i
+                                    class="fa-brands fa-square-github fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/nikole-grau-elizondo/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2x"></i></a>
+                        </div>
+                        <div class="aboutMeButtonContainer" style="text-align: left;">
+                            <button id="downloadButton2" class="buttonContact">Lorem ipsum
+                                <i class="fa-solid fa-file-arrow-down fa-xl"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section id="form" class="form">
+        <div class="formContainer">
+            <div class="row container-fluid d-flex justify-content-center align-items-center">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="formTitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                    <div class="">
+                        <hr class="servicesHr" data-aos="fade-right" data-aos-duration="1000">
+                    </div>
+                </div>
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="formText">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ducimus minus ipsam
+                        temporibus, dolorum soluta numquam deleniti obcaecati, hic sunt veritatis dolore ea in quidem
+                        quas, ex magni dignissimos? Explicabo?
+                    </p>
+                    <div class="formButtonContainer" style="text-align: left;">
+                        <button class="buttonContactWhatsApp">
+                            <a href="https://wa.link/m3pr9w" target="_blank">
+                                ¡Envíeme un WhatsApp! <i class="fa-brands fa-whatsapp fa-xl"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="hrSimple">
+                    <hr>
+                </div>
+
+                <div class="">
+                    <form id="contactForm" action="" class="">
+                        <div class="formRow">
+                            <div class="row">
+                                <!-- Column (1/2) -->
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <!-- Name -->
+                                    <div class="colForm">
+                                        <div class="inputBox">
+                                            <h4 class=""><label for="name">Nombre Completo:</label></h4>
+                                            <input id="nameText" type="text" name="nameText" required="required"
+                                                class="formInput">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Column (2/2) -->
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <!-- Email -->
+                                    <div class="colForm">
+                                        <div class="inputBox">
+                                            <h4 class=""><label for="email">Correo Electrónico:</label></h4>
+                                            <input id="emailText" type="text" name="emailText" required="required"
+                                                class="formInput">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Service Required -->
+                            <div class="colForm">
+                                <div class="inputBox">
+                                    <h4 class=""><label for="service">Servicio Requerido:</label></h4>
+                                    <input id="serviceText" type="text" name="serviceText" required="required"
+                                        class="formInput">
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="colForm">
+                                <div class="inputBox">
+                                    <h4 class=""><label for="message">Mensaje:</label></h4>
+                                    <textarea id="messageText" name="messageText" cols="30" rows="10"
+                                        class="formInputMessage"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="colForm">
+                                <div class="">
+                                    <div class="formButtonContainer">
+                                        <input id="btnSend" class="formButton" type="submit" value="Enviar">
+                                        <p class="" id="menssageAlert"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footerContainer">
+            <!-- Row (1/3) -->
+            <div class="row footerLogoLinks">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6 footerLogo">
+                    <a href="index.html"><img src="images/logoColor.svg" alt="img-fluid"></a>
+                </div>
+
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6 footerContainerLinks">
+                    <div class="footerLinks" style="text-align: right;">
+                        <a href="https://github.com/nikolegrauelizondo" target="_blank">
+                            <i class="fa-brands fa-square-github fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nikole-grau-elizondo/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row (2/3) -->
+            <div class="row">
+                <!-- Column (1/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="footerText">
+                        Diseñadora Gráfica y Desarrolladora Web.
+                    </p>
+                </div>
+
+                <!-- Column (2/2) -->
+                <div class="col-sm-12 col-md-6 col-lg-6" style="text-align: right;">
+                    <p class="footerTextContact">
+                        ngegrau@outlook.com
+                        <br>
+                        (+506) 8303-2567
+                    </p>
+                </div>
+            </div>
+
+            <!-- Row (3/3) -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#services" class="footerItem">Servicios</a>
+                <a href="#works" class="footerItem">Trabajos</a>
+                <a href="#aboutMe" class="footerItem">Sobre Mí</a>
+                <a href="#form" class="footerItem">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ScrollTop-->
+    <a href="#home" class="gotoTop" id="arrowUpButton" title="Ir Al Inicio" data-scroll>
+        <i class="fa-solid fa-circle-chevron-up fa-2xl"></i>
+    </a>
+
     <!-- Bootstrap's Elements Interactivity -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Download -->
+    <script src="js/download.js"></script>
+
+    <!-- Emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/emailjs.js"></script>
+
+    <!-- Photographic Lightbox -->
+    <script src="js/photographicLightbox.js"></script>
+
+    <!-- ScrollTop -->
+    <script src="js/scrollTop.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- Tabs -->
+    <script src="js/tabs.js"></script>
 
 </body>
 
