@@ -197,20 +197,31 @@ hr {
     width: auto;
 }
 
-.headerTitle {
+.headerTitleH1 {
     color: var(--neutral-color-light);
     font-family: 'DM Sans', sans-serif;
+    font-size: 45px !important;
     font-weight: 900;
     margin: 0;
     padding-top: 30px;
-    padding-bottom: 10px;
+}
+
+.headerTitleH2 {
+    color: var(--neutral-color-light);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px !important;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 .headerText {
     color: var(--neutral-color-light);
+    font-size: 17.5px !important;
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 /* Services */
@@ -442,14 +453,26 @@ hr {
     font-weight: 700;
     margin: 0;
     padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 25px;
 }
 
+.aboutMeContainerHr {
+    padding-left: 20px;
+}
+
+.aboutMeHr {
+    border: 3px solid var(--tertiary-color);
+    border-radius: 1px;
+    margin: 0;
+    opacity: 1;
+    width: 50%;
+}
+
 .aboutMeText {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 50px;
@@ -637,6 +660,7 @@ hr {
     margin-right: 15%;
     /* padding-top: 30px; */
     padding-bottom: 42.5px;
+    text-align: left !important;
 }
 
 .footerLogoLinks {
@@ -656,6 +680,7 @@ hr {
 
 .footerLinks {
     bottom: 0;
+    text-align: right;
 }
 
 .footerLinks a {
@@ -727,4 +752,85 @@ hr {
 
 .gotoTop:active {
     opacity: 0.5;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 480px) {
+    body {
+        background-attachment: fixed;
+        background-image: url(/images/bannerWeb3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .headerTitleH1 {
+        color: var(--neutral-color-light);
+        font-family: 'DM Sans', sans-serif;
+        font-size: 35px !important;
+        font-weight: 900;
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    .headerTitleH2 {
+        color: var(--neutral-color-light);
+        font-family: 'DM Sans', sans-serif;
+        font-size: 35px !important;
+        font-weight: 900;
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .headerText {
+        color: var(--neutral-color-light);
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+
+    .servicesText {
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .tab button {
+        margin-right: 15px;
+    }
+
+    .worksText {
+        color: var(--neutral-color-light);
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .worksContainer1 {
+        padding-bottom: 30px;
+    }
+
+    .workGalleryImage {
+        border-radius: 8px;
+    }
+
+    .aboutMeImage {
+        border-radius: 8px;
+    }
+
+    .formText {
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .footerTextContact {
+        font-size: 14px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    .footerItem {
+        margin-bottom: 15px;
+    }
 }
