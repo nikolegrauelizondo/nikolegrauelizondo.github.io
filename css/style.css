@@ -24,7 +24,7 @@
 }
 
 body {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-image: url(/images/bannerWeb3.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -352,9 +352,9 @@ hr {
     padding-top: 10px;
 }
 
-.workGalleryContainer2 {
+/* .workGalleryContainer2 {
     padding-top: 25px;
-}
+} */
 
 .workBox {
     background-color: var(--neutral-color-light);
@@ -659,7 +659,7 @@ hr {
     margin-left: 15%;
     margin-right: 15%;
     /* padding-top: 30px; */
-    padding-bottom: 42.5px;
+    padding-bottom: 22.5px;
     text-align: left !important;
 }
 
@@ -806,7 +806,7 @@ hr {
     }
 
     .worksContainer1 {
-        padding-bottom: 30px;
+        padding-bottom: 25px;
     }
 
     .workGalleryImage {
